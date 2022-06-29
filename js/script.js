@@ -1,21 +1,14 @@
-'use strict';
+// const hamburger = true;
+// const fries = true;
 
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?', '');
+// if (hamburger && fries) {
+//     console.log('1');
+// }
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// console.log((hamburger && fries));
 
-const a = prompt('Один из последних просмотренных фильмов?', ''),
-      b = prompt('На сколько оцените его?', ''),
-      c = prompt('Один из последних просмотренных фильмов?', ''),
-      d = prompt('На сколько оцените его?', '');
+// let johnReport, alexReport, samReport, mariaReport = 'done';
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
+// console.log(johnReport || alexReport || samReport || mariaReport);
 
-console.log(personalMovieDB);
+console.log( NaN || 2 || undefined );
