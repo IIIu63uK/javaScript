@@ -1,14 +1,9 @@
-// const hamburger = true;
-// const fries = true;
+function sayHello(name) {
+    return ("Привет, {name}");
+}
 
-// if (hamburger && fries) {
-//     console.log('1');
-// }
+function returnNeighboringNumbers(num) {
+    let a = [num - 1, num, num + 1];
+    return a;
+}
 
-// console.log((hamburger && fries));
-
-// let johnReport, alexReport, samReport, mariaReport = 'done';
-
-// console.log(johnReport || alexReport || samReport || mariaReport);
-
-console.log( NaN || 2 || undefined );
